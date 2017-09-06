@@ -26,13 +26,13 @@ ALLEGRO_FONT* a5ui_font;
 void a5ui_frame(void);
 
 //juts text label
-void a5ui_label(float x, float y, float w, float h, char* text, ALLEGRO_COLOR color);
+void a5ui_label(float x, float y, int w, int h, char* text, ALLEGRO_COLOR color);
 
 //button
-int a5ui_button(float x, float y, float w, float h, char* text);
+int a5ui_button(float x, float y, int w, int h, char* text);
 
 //BUTTON with colors options
-int a5ui_text_button(float x, float y, float w, float h, char* text, ALLEGRO_COLOR col, ALLEGRO_COLOR hover_col, ALLEGRO_COLOR click_col);
+int a5ui_text_button(float x, float y, int w, int h, char* text, ALLEGRO_COLOR col, ALLEGRO_COLOR hover_col, ALLEGRO_COLOR click_col);
 
 //IMAGe button
 int a5ui_bitmap_button(float x, float y, ALLEGRO_BITMAP* bmp, ALLEGRO_BITMAP* hover_bmp, ALLEGRO_BITMAP* click_bmp);
